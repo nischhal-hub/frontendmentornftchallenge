@@ -1,0 +1,113 @@
+html {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background: hsl(217, 54%, 11%);
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: hsl(216, 50%, 16%);
+  width: 350px;
+  margin: 0 auto;
+  border-radius: 2%;
+  padding: 1.2rem;
+}
+
+.container .nft {
+  width: 32rem;
+  max-width: 100%;
+  margin: 15px 10px 5px 15px;
+  border-radius: 2%;
+}
+
+/* .container div{
+    position: absolute;
+    top: 0;
+    background-color:hsl(178, 100%, 50%);
+    max-width: 100%;
+    width: 32rem;
+    z-index: 999; 
+} */
+
+.container h2 {
+  color: hsl(0, 0%, 100%);
+  margin: 15px 0 0 15px;
+  font-size: 1.8rem;
+}
+.container h2:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+.container p {
+  color: hsl(0, 0%, 100%, 25%);
+  margin: 15px 0 0 15px;
+  font-size: 1.8rem;
+}
+
+.container ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(0, 0%, 100%, 25%);
+}
+
+.container ul li:first-child {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 0 15px;
+  font-size: 1.8rem;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.container ul li img {
+  margin-right: 10px;
+}
+
+.container ul li:nth-child(2) {
+  display: flex;
+  align-items: center;
+  margin: 15px 15px 0 15px;
+  font-size: 1.8rem;
+  color: hsl(0, 0%, 100%, 25%);
+  font-weight: 300;
+}
+
+.belowline {
+  display: flex;
+}
+.belowline .avatar {
+  width: 5rem;
+  margin-top: 2rem;
+  border: 0.2rem solid white;
+  border-radius: 50%;
+}
+
+.belowline p {
+  float: right;
+  margin-top: 3rem;
+}
+
+.belowline p span {
+  color: white;
+  font-weight: 600;
+}
+.belowline p span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.attribution {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
