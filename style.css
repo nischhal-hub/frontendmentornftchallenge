@@ -30,7 +30,7 @@ body {
   border-radius: 2%;
 }
 
- .container .eyehover{
+/*  --!.container .eyehover{
     position: absolute;
     width: 32rem;
    height:93%;
@@ -41,7 +41,7 @@ body {
    border-radius: 2%;
    
 } 
-.container .eyehover:hover{z-index:2;}
+.container .eyehover:hover{z-index:2;} */
 
 .container h2 {
   color: hsl(0, 0%, 100%);
