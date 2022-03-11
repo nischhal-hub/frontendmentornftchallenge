@@ -30,14 +30,18 @@ body {
   border-radius: 2%;
 }
 
-/* .container div{
+ .container div{
     position: absolute;
-    top: 0;
-    background-color:hsl(178, 100%, 50%);
-    max-width: 100%;
     width: 32rem;
-    z-index: 999; 
-} */
+   height:93%;
+   top: 0px;
+   margin: 15px 10px 5px 15px;
+   background: aqua;
+   z-index:-1;
+   border-radius: 2%;
+   
+} 
+.container div:hover{z-index:2;}
 
 .container h2 {
   color: hsl(0, 0%, 100%);
