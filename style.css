@@ -10,6 +10,7 @@ html {
 
 body {
   display: flex;
+  /* flex-direction: row; */
   background: hsl(217, 54%, 11%);
   align-items: center;
   min-height: 100vh;
@@ -23,25 +24,26 @@ body {
   padding: 1.2rem;
 }
 
+
 .container .nft {
   width: 32rem;
   max-width: 100%;
   margin: 15px 10px 5px 15px;
   border-radius: 2%;
 }
-
-/*  --!.container .eyehover{
-    position: absolute;
-    width: 32rem;
-   height:93%;
-   top: 0px;
-   margin: 15px 10px 5px 15px;
-   background: aqua;
-   z-index:-1;
-   border-radius: 2%;
-   
-} 
-.container .eyehover:hover{z-index:2;} */
+.hoveraqua{
+  position: absolute;
+  width: 32rem;
+  height: 32rem;
+  background: aqua;
+  margin: 15px 10px 5px 15px;
+  border-radius: 2%;
+  opacity: 0;
+}
+.hoveraqua:hover{
+  opacity: 0.5;
+  transition: 0.5s ;
+}
 
 .container h2 {
   color: hsl(0, 0%, 100%);
@@ -69,7 +71,7 @@ body {
 .container ul li:first-child {
   display: flex;
   align-items: center;
-  margin: 15px 0 0 15px;
+  margin: 15px 0 15px 15px;
   font-size: 1.8rem;
   color: hsl(178, 100%, 50%);
   font-weight: 600;
@@ -82,7 +84,7 @@ body {
 .container ul li:nth-child(2) {
   display: flex;
   align-items: center;
-  margin: 15px 15px 0 15px;
+  margin: 15px 15px 15px 15px;
   font-size: 1.8rem;
   color: hsl(0, 0%, 100%, 25%);
   font-weight: 300;
